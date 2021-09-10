@@ -1,0 +1,38 @@
+.pagination li .btn-pagination:hover {
+    color: #434a54;
+    background-color: transparent;
+}
+
+.pagination li .btn-pagination:hover:after {
+    width: 20px;
+}
+
+.pagination li .previous,
+.pagination li .next {
+    line-height: 30px;
+
+    width: 32px;
+    height: 32px;
+    padding: 0;
+
+    border: 1px solid #b3b3b3;
+    -webkit-border-radius: 50% !important;
+       -moz-border-radius: 50% !important;
+            border-radius: 50% !important;
+}
+
+.pagination li .previous:after,
+.pagination li .next:after {
+    display: none;
+}
+
+.pagination li .previous:hover,
+.pagination li .next:hover {
+    color: #ffffff;
+    border: 1px solid #434a54;
+    background-color: #434a54;
+}
+
+.pagination li .previous {
+    margin-right: 10px;
+}
